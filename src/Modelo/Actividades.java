@@ -16,6 +16,7 @@ public class Actividades {
     String nombre_actividad;
     Date fecha;
     Time hora;
+    String evento;
 
     //Encapsular los atributos y generar sus metodos get (obtener datos) y set (setear datos)
     public int getId_actividad() {
@@ -56,6 +57,14 @@ public class Actividades {
 
     public void setHora(Time hora) {
         this.hora = hora;
+    }
+
+    public String getEvento() {
+        return evento;
+    }
+
+    public void setEvento(String evento) {
+        this.evento = evento;
     }
     
     //Metodo para sobreescribir. Aquí obtenemos los datos que necesitamos
