@@ -16,8 +16,8 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 /**
  *
- * 
+ * @author pc1
  */
-public class CtrlAsistentes {
+public class CtrlEventos {
     
 }
